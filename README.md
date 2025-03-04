@@ -33,8 +33,8 @@ I configured **Amazon DynamoDB** to store user registration data.
 I developed an **AWS Lambda function** to handle backend processing and interact with DynamoDB.
 
 This my lambda logic
-![AWS DynamoDB Data](Lambda.png)
-🖼️ lambda_function.zip
+![AWS Lambda](Lambda.png)
+lambda_function.zip
 
 ---
 
