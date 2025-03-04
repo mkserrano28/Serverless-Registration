@@ -25,14 +25,16 @@ I set up **AWS Amplify** to host my React.js project.
 ### **3. Create DynamoDB for User Registration**
 I configured **Amazon DynamoDB** to store user registration data.
 
-![AWS Amplify Registration](DynamoDb.png)
+![AWS DynamoDB Data](DynamoDb.png)
 
 ---
 
 ### **4. Create AWS Lambda for Backend Logic**
 I developed an **AWS Lambda function** to handle backend processing and interact with DynamoDB.
 
-🖼️ *(Insert Lambda Function Screenshot Here)*
+This my lambda logic
+![AWS DynamoDB Data](Lambda.png)
+🖼️ lambda_function.zip
 
 ---
 
