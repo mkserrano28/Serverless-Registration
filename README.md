@@ -25,7 +25,7 @@ I set up **AWS Amplify** to host my React.js project.
 ### **3. Create DynamoDB for User Registration**
 I configured **Amazon DynamoDB** to store user registration data.
 
-🖼️ *(Insert DynamoDB Screenshot Here)*
+![AWS Amplify Registration](DynamoDB.png)
 
 ---
 
