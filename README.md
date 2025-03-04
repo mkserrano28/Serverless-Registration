@@ -7,7 +7,7 @@ I created an **e-commerce website** using **React.js** and **Tailwind CSS** and 
 - **AWS Lambda for backend logic**
 - **API Gateway to manage API requests**
 
-🌍 **Live URL**: [https://main.d3o4gtrj4zyy3h.amplifyapp.com](https://main.d3o4gtrj4zyy3h.amplifyapp.com)  
+🌍 **Live URL**: [[https://main.d3o4gtrj4zyy3h.amplifyapp.com]](https://main.d2lnx1mhn6kzsw.amplifyapp.com/)
 🔗 **GitHub Repository**: [https://github.com/mkserrano28/serverless](https://github.com/mkserrano28/serverless)
 
 ---
