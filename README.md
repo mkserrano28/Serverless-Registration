@@ -40,7 +40,10 @@ lambda_function.zip
 
 ### **5. Set Up API Gateway**
 I created an **API Gateway** to manage and route API requests to my **Lambda function** and **DynamoDB**.
-
+![AWS API Gateway](API gateway1.png)
+![AWS API Gateway](API gateway2.png)
+![AWS API Gateway](API gateway 3.png)
+![AWS API Gateway](API gateway 4.png)
 🖼️ *(Insert API Gateway Screenshot Here)*
 
 ---
