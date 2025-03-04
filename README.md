@@ -22,21 +22,19 @@ I set up **AWS Amplify** to host my React.js project.
 
 ---
 
-### **3. Create DynamoDB for User Registration**
-I configured **Amazon DynamoDB** to store user registration data.
-
-![AWS DynamoDB Data](DynamoDb.png)
-
----
-
-### **4. Create AWS Lambda for Backend Logic**
+### **3. Create AWS Lambda for Backend Logic**
 I developed an **AWS Lambda function** to handle backend processing and interact with DynamoDB.
 
 This my lambda logic
 ![AWS Lambda](Lambda.png)
 lambda_function.zip
 
----
+
+### ***4. IAM Role
+Create an IAM role for Lambda and DynamoDB Policies
+![AWS IAM-Role](IAMRole.png)
+![AWS IAM-Policies](IAMPolicies.png)
+
 
 ### **5. Set Up API Gateway**
 I created an **API Gateway** to manage and route API requests to my **Lambda function** and **DynamoDB**.
@@ -45,6 +43,14 @@ I created an **API Gateway** to manage and route API requests to my **Lambda fun
 ![AWS API Gateway](API3.png)
 ![AWS API Gateway](API4.png)
 🖼️ *(Insert API Gateway Screenshot Here)*
+
+
+### **6. Create DynamoDB for User Registration**
+I configured **Amazon DynamoDB** to store user registration data.
+
+![AWS DynamoDB Data](DynamoDb.png)
+
+
 
 ---
 
