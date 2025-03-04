@@ -7,6 +7,9 @@ I created an **e-commerce website** using **React.js** and **Tailwind CSS** and 
 - **AWS Lambda for backend logic**
 - **API Gateway to manage API requests**
 
+🌍 **Live URL**: [https://main.d3o4gtrj4zyy3h.amplifyapp.com](https://main.d3o4gtrj4zyy3h.amplifyapp.com)  
+🔗 **GitHub Repository**: [https://github.com/mkserrano28/serverless](https://github.com/mkserrano28/serverless)
+
 ---
 
 ## Steps to Deploy
@@ -38,6 +41,14 @@ I developed an **AWS Lambda function** to handle backend processing and interact
 
 📌 **Lambda Deployment (ZIP Upload)**  
 `lambda_function.zip`
+
+#### **Backend Logic Improvements**
+To enhance **scalability, security, and efficiency**, here are some possible improvements:
+✅ **Error Handling**: Implement detailed error responses (e.g., invalid inputs, DynamoDB errors).  
+✅ **Validation Middleware**: Use **AJV** for JSON Schema validation before inserting into DynamoDB.  
+✅ **Rate Limiting**: Protect API Gateway with AWS **WAF** or API rate limits to prevent abuse.  
+✅ **Logging & Monitoring**: Use **AWS CloudWatch Logs** to track request failures and debugging.  
+✅ **Authentication**: Implement **Amazon Cognito** or JWT-based authentication to secure user data.  
 
 ---
 
