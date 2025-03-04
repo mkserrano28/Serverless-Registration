@@ -17,7 +17,8 @@ I uploaded my project to a GitHub repository named **serverless**:
 I set up **AWS Amplify** to host my React.js project.  
 📌 **CI/CD Enabled**: Every time I push updates to GitHub, **AWS Amplify automatically deploys the latest version** without manual intervention.
 
-🖼️ *(Insert Amplify Deployment Screenshot Here)*
+#### **AWS Amplify Registration Screenshot**
+![AWS Amplify Registration](Registration.png)
 
 ---
 
