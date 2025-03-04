@@ -1,14 +1,18 @@
 # Serverless-Registration
 
 ## Overview
-I created an **e-commerce website** using **React.js** and **Tailwind CSS** and deployed it using **AWS serverless services**. This project includes **CI/CD automation**, **DynamoDB for user registration**, **AWS Lambda for backend logic**, and **API Gateway** for managing API requests.
+I created an **e-commerce website** using **React.js** and **Tailwind CSS** and deployed it using **AWS serverless services**. This project includes:
+- **CI/CD automation with AWS Amplify**
+- **DynamoDB for user registration**
+- **AWS Lambda for backend logic**
+- **API Gateway to manage API requests**
 
 ---
 
 ## Steps to Deploy
 
 ### **1. Upload Project to GitHub**
-I uploaded my project to a GitHub repository named **serverless**:  
+I uploaded my project to a GitHub repository named **serverless**.  
 🔗 [GitHub Repository](https://github.com/mkserrano28/serverless)
 
 ---
@@ -17,7 +21,7 @@ I uploaded my project to a GitHub repository named **serverless**:
 I set up **AWS Amplify** to host my React.js project.  
 📌 **CI/CD Enabled**: Every time I push updates to GitHub, **AWS Amplify automatically deploys the latest version** without manual intervention.
 
-#### **AWS Amplify Registration Screenshot**
+#### **AWS Amplify Deployment Screenshot**
 ![AWS Amplify Registration](Registration.png)
 
 ---
@@ -25,32 +29,45 @@ I set up **AWS Amplify** to host my React.js project.
 ### **3. Create AWS Lambda for Backend Logic**
 I developed an **AWS Lambda function** to handle backend processing and interact with DynamoDB.
 
-This my lambda logic
+#### **AWS Lambda Code and Deployment**
+- The Lambda function is responsible for handling user registration.
+- It processes API requests and stores data in **DynamoDB**.
+
+📌 **Lambda Function Code Screenshot**  
 ![AWS Lambda](Lambda1.png)
-lambda_function.zip
 
+📌 **Lambda Deployment (ZIP Upload)**  
+`lambda_function.zip`
 
-### ***4. IAM Role
-Create an IAM role for Lambda and DynamoDB Policies
+---
+
+### **4. Set Up IAM Role & Policies**
+To allow Lambda to interact with **DynamoDB**, I created an IAM role with the necessary permissions.
+
+📌 **IAM Role Configuration Screenshot**  
 ![AWS IAM-Role](IAMRole.png)
+
+📌 **IAM Policies for Lambda & DynamoDB**  
 ![AWS IAM-Policies](IAMPolicies.png)
 
+---
 
 ### **5. Set Up API Gateway**
-I created an **API Gateway** to manage and route API requests to my **Lambda function** and **DynamoDB**.
-![AWS API Gateway](API1.png)
-![AWS API Gateway](API2.png)
-![AWS API Gateway](API3.png)
-![AWS API Gateway](API4.png)
-🖼️ *(Insert API Gateway Screenshot Here)*
+I created an **API Gateway** to manage and route API requests between my **Lambda function** and **DynamoDB**.
 
+📌 **API Gateway Configuration Screenshots**  
+![AWS API Gateway](API1.png)  
+![AWS API Gateway](API2.png)  
+![AWS API Gateway](API3.png)  
+![AWS API Gateway](API4.png)  
+
+---
 
 ### **6. Create DynamoDB for User Registration**
-I configured **Amazon DynamoDB** to store user registration data.
+I configured **Amazon DynamoDB** to store user registration data. 
 
+📌 **DynamoDB Table Screenshot**  
 ![AWS DynamoDB Data](DynamoDb1.png)
-
-
 
 ---
 
@@ -66,13 +83,13 @@ I configured **Amazon DynamoDB** to store user registration data.
 
 ## **Future Enhancements**
 - Implement authentication using **Amazon Cognito**.
-- Add **GraphQL API** for better data querying.
-- Improve UI/UX for a better user experience.
+- Add **GraphQL API** for more efficient data querying.
+- Improve UI/UX for better user experience.
 
 ---
 
 ## **How to Run Locally**
-1. Clone the repository:
+1. **Clone the repository**:
    ```sh
    git clone https://github.com/mkserrano28/serverless.git
    cd serverless
